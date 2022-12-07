@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+   	  <!--poner titulo a la pagina-->
+   	  <title>"villa de los niños"</title>
+   	  <meta charset="UTF-8">
+   	  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+   	  <!-- vincular archivo css -->
+   	  <link rel="stylesheet" href="css/fontello.css">
+   	  <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/estilos-form.css">
+
+   	</head>
+   	<!--bgcolor= es para darle color al fondo a la pagina-->
+
+   	<body bgcolor="lightYellow">
+   		<!--inicio header-->
+   		<header>
+   			<div class="contenedor">
+   				<!--para titulos principales-->
+   				<h1 class="icon-college">"VILLA DE LOS NIÑOS"</h1>
+   				<!--input nos permite mostrar el menu-->
+   				<input type="checkbox" id="menu-bar">
+   				<!--label hace que input se active y se desactive-->
+   				<label class="icon-menu" for="menu bar"></label>
+   				<!--menu-->
+   				<nav class="menu">
+   					<!--esta enlace nos permite vincular con las demas paginas-->
+   					<a href="index.html">Inicio</a>
+   					<a href="index2.html">Conocenos</a>
+   					<a href="index3.html">Contacto</a>
+   				</nav>
+   			</div>
+   		</header>
+   		<!-- fin header -->
+
+         <!--formulario-->
+         <h1> FORMULARIO DE REGISTRO</h1>
+         <form action="" method="post" class="form-register">
+            <h2 class="form__titulo">REGISTRATE</h2>
+            <div class="contenedor-inputs"></div>
+            <!-- se le da tipo de texto de acuerdo a lo que va ir en cada caja, y el placeholder= es para poner como de fondo lo que se tiene que escribir-->
+            <input type="text" name="nombre" placeholder="Nombre" class="input-48" required>
+            <input type="text" name="Apellidos" placeholder="Apellidos" class="input-48" required>
+            <input type="email" name="Correo" placeholder="Correo" class="input-100" required>
+            <input type="text" name="Usuario" placeholder="Usuario" class="input-48" required>
+            <input type="password" name="Clave" placeholder="Contraseña" class="input-48" required>
+            <input type="text" name="telefono" placeholder="telefono" class="input-100" required>
+            <input type="submit" value="Enviar" class="btn-enviar" required>
+            <p class="form__link">¿Ya tienes una cuenta?<a href="">Ingresa aqui</a></p>
+         </div>
+         </form>
+         <!--fin del formulario-->
+
+   </body>
+   </html>

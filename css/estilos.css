@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2? family = Dancing + Script & family = Atuendo: wght @ 200 & display = swap'
+	);
+@import url('menu.css');
+@import url('banner.css');
+@import url('blog.css');
+@import url('info.css');
+* {
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	familia de fuentes: 'Traje', sans-serif;
+}
+/*inicio header*/
+header {
+	width: 100%;
+	height: 50px;
+	background: #4169E1;
+	color: #fff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+/*para todos los contenedores*/
+.contenedor {
+	width: 98%;
+	margin: auto;
+}
+
+h1 {
+	float: left;
+}
+
+header .contenedor {
+	display: table;
+}
+/*fin header*/
+
+/*inicio banner*/
+section {
+	width: 100%;
+	margin-bottom: 25px;
+}
+/*fin banner*/
+
+/*inicio bienvenidos*/
+#bienvenidos {
+	text-aling: center;
+}
+/*fin bienvenidos*/
+
+/*inicio footer*/
+footer .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.copy {
+	font-size: 20px;
+}
+
+.sociales {
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+
+.sociales a {
+	color: #333;
+	text-decoration: none;
+}
+/*fin footer*/
+
+/*alinear*/
+@media (min-width: 1024px) {
+	.contenedor {
+		width: 1000px;
+	}
+}
